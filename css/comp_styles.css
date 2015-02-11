@@ -1,6 +1,7 @@
 body,
 html{
-    min-height:1000%;
+    max-height:70%;
+    min-height:100%;
 }
 
 body {
