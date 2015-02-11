@@ -1,7 +1,7 @@
 body {
       background-image: url(../images/back.jpg);
       background-size:cover;
-    /*background-color:#5b1923;*/
+      background-color:#5b1923;
 }
 
 p {
@@ -13,6 +13,6 @@ color: #e3c91e;
 padding-top: 30px;
 }
 
-a:link {
+/*a:link {
     color: #e3c91e;
 }
