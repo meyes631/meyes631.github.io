@@ -1,3 +1,9 @@
+body,
+html{
+    min-height:70%;
+    max-height:70%;
+}
+
 body {
       background-image: url(../images/back.jpg);
       background-size: cover;
