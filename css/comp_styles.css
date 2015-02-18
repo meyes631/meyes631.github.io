@@ -21,3 +21,17 @@ color: #e3c91e;
 padding-top: 30px;
 }
 
+
+a {
+    color: black;
+}
+a:visited {
+    color: red;
+}
+.gold{
+    font-size:40px;
+}
+
+.taller{
+    font-size:40px;
+}
