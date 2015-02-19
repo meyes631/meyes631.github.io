@@ -2,7 +2,6 @@ body {
       background-image: url("../images/Bak_2.png");
       background-repeat:no-repeat;
       background-position:center;
-      /*background-color:blue;*/
 }
 
 #GMO{
@@ -11,12 +10,15 @@ body {
 
 .GET{
       font-size:80px;
+      font-family: "Arial Black", Gadget, sans-serif
 }
 
 .ME{
       font-size:80px;
+      font-family: "Arial Black", Gadget, sans-serif
 }
 
 .OUT{
       font-size:80px;
+      font-family: "Arial Black", Gadget, sans-serif
 }
