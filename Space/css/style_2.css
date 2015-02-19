@@ -5,11 +5,12 @@ body {
 }
 
 #GMO{
-      position:center;
+      vertical-align: auto;
+      text-align:center;
 }
 
 .GET{
-      font-size:80px;
+      font-size:100px;
       font-family: "Arial Black", Gadget, sans-serif
 }
 
@@ -19,6 +20,6 @@ body {
 }
 
 .OUT{
-      font-size:80px;
+      font-size:60px;
       font-family: "Arial Black", Gadget, sans-serif
 }
