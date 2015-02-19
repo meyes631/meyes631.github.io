@@ -7,9 +7,20 @@ body {
 #GMO{
       vertical-align: auto;
       text-align:center;
+      /*margin: 0 auto;*/
 }
 
 .GET{
+      height:120px;
+      color:red;
+      font-size:100px;
+      font-family: "Arial Black", Gadget, sans-serif
+      
+}
+
+.GET.hover{
+      height:120px;
+      color:blue;
       font-size:100px;
       font-family: "Arial Black", Gadget, sans-serif
 }
