@@ -18,7 +18,7 @@ body {
       
 }
 
-.GET.hover{
+.GET:hover{
       height:120px;
       color:blue;
       font-size:100px;
