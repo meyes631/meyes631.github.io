@@ -23,7 +23,7 @@ body {
 .GET:hover{
       width:300px;
       height:120px;
-      color:blue;
+      color:#60b3cb;
       font-size:100px;
       font-family: "Arial Black", Gadget, sans-serif
 }
@@ -37,7 +37,7 @@ body {
 
 .ME:hover{
       width:300px;
-      color:blue;
+      color:#d4a758;
       font-size:80px;
       font-family: "Arial Black", Gadget, sans-serif
 }
@@ -51,7 +51,7 @@ body {
 
 .OUT:hover{
       width:300px;
-      color:blue;
+      color:#db1045;
       font-size:60px;
       font-family: "Arial Black", Gadget, sans-serif
 }
