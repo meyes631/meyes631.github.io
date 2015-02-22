@@ -39,12 +39,14 @@ body {
 }
 
 .OUT{
+      text-decoration: none;
       font-size:60px;
       color:#f6f6f6;
       font-family: "Arial Black", Gadget, sans-serif
 }
 
 .OUT:hover{
+      text-decoration: none;
       color:#db1045;
       font-size:60px;
       font-family: "Arial Black", Gadget, sans-serif
