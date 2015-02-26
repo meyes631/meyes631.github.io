@@ -42,6 +42,11 @@ a:link {
     text-decoration: none;
 }
 
+
+.test:hover {
+      color: orange;
+}
+
 .OUT{
       font-size:60px;
       color:#f6f6f6;
