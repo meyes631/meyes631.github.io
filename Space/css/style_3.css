@@ -1,6 +1,7 @@
 .wrapper{
-    width:1800px;
-    height:8000px;
+    max-size:50%;
+    /*width:1800px;*/
+    /*height:8000px;*/
     
 }
 
