@@ -43,7 +43,7 @@ a:link {
 }
 
 
-.test:hover {
+.color1:hover {
       color: orange;
 }
 
@@ -53,8 +53,11 @@ a:link {
       font-family: "Arial Black", Gadget, sans-serif
 }
 
-.OUT:hover{
-      color:#db1045;
-      font-size:60px;
-      font-family: "Arial Black", Gadget, sans-serif
-}
+.color3:hover {
+      color: orange;
+
+/*.OUT:hover{*/
+/*      color:#db1045;*/
+/*      font-size:60px;*/
+/*      font-family: "Arial Black", Gadget, sans-serif*/
+/*}*/
