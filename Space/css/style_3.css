@@ -7,9 +7,64 @@
 .handle {
     position:relative;
     top:30px;
-    left:500px;
+    left:880px;
+}
+
+.s1 {
+    position:relative;
+    top:10px;
+    left:630px;
+}
+
+.s2 {
+    position:relative;
+    top:-53px;
+    left:167px;
+}
+
+.s3 {
+    position:relative;
+    top:-70px;
+    left:790px;
+}
+
+.door1 {
+    position:relative;
+    top:-220px;
+    left:1220px;
+}
+
+.s4 {
+    position:relative;
+    top:-216px;
+    left:700px;
+}
+
+.s5 {
+    position:relative;
+    top:-218px;
+    left:440px;
 }
 
 .door2 {
-    
+    position:relative;
+    top:-450px;
+    left:433px;
+}
+
+.s6 {
+    position:relative;
+    top:-363px;
+    left:445px;
+}
+.door3 {
+    position:relative;
+    top:-568px;
+    left:1212px;
+}
+
+.s7 {
+    position:relative;
+    top:-535px;
+    left:207px;
 }
