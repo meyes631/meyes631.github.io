@@ -1,70 +1,70 @@
 .wrapper{
     width:960px;
-    height:auto;
+    height:1900px;
     
 }
 
 .handle {
     position:relative;
     top:30px;
-    left:880px;
+    left:860px;
 }
 
 .s1 {
     position:relative;
     top:10px;
-    left:630px;
+    left:610px;
 }
 
 .s2 {
     position:relative;
     top:-53px;
-    left:167px;
+    left:147px;
 }
 
 .s3 {
     position:relative;
     top:-70px;
-    left:790px;
+    left:770px;
 }
 
 .door1 {
     position:relative;
     top:-220px;
-    left:1220px;
+    left:1200px;
 }
 
 .s4 {
     position:relative;
     top:-216px;
-    left:700px;
+    left:680px;
 }
 
 .s5 {
     position:relative;
     top:-218px;
-    left:440px;
+    left:420px;
 }
 
 .door2 {
     position:relative;
     top:-450px;
-    left:433px;
+    left:413px;
 }
 
 .s6 {
     position:relative;
     top:-363px;
-    left:445px;
+    left:425px;
 }
 .door3 {
     position:relative;
     top:-568px;
-    left:1212px;
+    left:1192px;
 }
 
 .s7 {
     position:relative;
     top:-535px;
-    left:207px;
+    left:187px;
 }
