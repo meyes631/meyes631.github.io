@@ -2,8 +2,7 @@
     <title>Space</title>
     
         <link rel="stylesheet" href="css/style_3.css">
-
-    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 
 
@@ -11,37 +10,58 @@
     
    <div class="wrapper">
        
-       <div class="handle"><img style= "width:20%" "height:auto;" src="./images/Materials/handle_1.png"/> </div>
+       <div class="handle"><img style="width:20%; height:auto;" src="./images/Materials/handle_1.png"/> </div>
        
-       <div class="s1"><img style= "width:47%" "height:auto;" src="./images/Materials/1_1.png"/> </div>
+       <div class="s1"><img style= "width:47%; height:auto;" src="./images/Materials/1_1.png"/></div>
+       <div class="s1_2"><img style= "width:47%; height:auto;" src="./images/Materials/1_2.png"/></div>
        
-       <div class="s2"><img style= "width:65%" "height:auto;" src="./images/Materials/2_1.png"/> </div>
+       <div class="s2"><img style= "width:65%; height:auto;" src="./images/Materials/2_1.png"/></div>
+       <div class="s2_2"><img style= "width:65%; height:auto;" src="./images/Materials/2_2.png"/> </div>
        
-       <div class="s3"><img style= "width:45%" "height:auto;" src="./images/Materials/3_1.png"/> </div>
+       <div class="s3"><img style= "width:45%; height:auto;" src="./images/Materials/3_1.png"/> </div>
+       <div class="s3_2"><img style= "width:45%; height:auto;" src="./images/Materials/3_2.png"/> </div>
        
-       <div class="door1"><img src="./images/Materials/door_2.png"/> </div>
+       <div class="door1">
+           <img class="door" data-target=".section-2" src="./images/Materials/door_2.png"/>
+       </div>
        
        <!--<div class="door1" > <a href="./space_4.html"> <img src="images/Door_1.png" /> </a> <div>-->
+       <div class="section-2 hidden">
+            <div class="s4"><img style= "width:55%; height:auto;" src="./images/Materials/4_1.png"/> </div>
+            <div class="s4_2"><img style= "width:55%; height:auto;" src="./images/Materials/4_2.png"/> </div>
        
-            <div class="s4"><img style= "width:55%" "height:auto;" src="./images/Materials/4_1.png"/> </div>
-       
-            <div class="s5"><img style= "width:55%" "height:auto;" src="./images/Materials/5_1.png"/> </div>
+            <div class="s5"><img style= "width:55%; height:auto;" src="./images/Materials/5_1.png"/> </div>
+            <div class="s5_2"><img style= "width:55%; height:auto;" src="./images/Materials/5_2.png"/> </div>
             
-            <div class="door2"><img src="./images/Materials/door_2.png"/> </div>
+            <div class="door2">
+                <img class="door" data-target=".section-3" src="./images/Materials/door_2.png"/>
+            </div>
+        </div>
+        
+        <div class="section-3 hidden">
 
             <!--<div class="door2" > <a href="./space_5.html"> <img src="images/Door_1.png" /> </a> <div>-->
             
                  <div class="s6"><img style= "width:80%" "height:auto;" src="./images/Materials/6_1.png"/> </div>
+                 <div class="s6_2"><img style= "width:80%" "height:auto;" src="./images/Materials/6_2.png"/> </div>
                  
-                 <div class="door3"><img src="./images/Materials/door_2.png"/> </div>
+                 <div class="door3">
+                     <img class="door" data-target=".section-4" src="./images/Materials/door_2.png"/> 
+                </div>
                  
                  <!--<div class="door3" > <a href="./space_6.html"> <img src="images/Door_1.png" /> </a> <div>-->
+                 
+        <div class="section-4 hidden">
+                 <div class="s7" >
+                     <a href="http://meyes631.github.io/"> 
+                         <img style="width:25%; height:auto;" src="./images/Materials/7_2.png" />
+                     </a>
+                 <div>
+            </div>
 
-                 <div class="s7" > <a href="http://meyes631.github.io/"> 
-                 <img style= "width:25%" "height:auto;" src="./images/Materials/7_2.png" /> </a> <div>
-
-    
+        </div>
+        
        </div>
-
+        <script src="js/application.js"></script>
     
 </body>

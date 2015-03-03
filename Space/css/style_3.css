@@ -1,6 +1,6 @@
 .wrapper{
     width:960px;
-    height:1900px;
+    height:1000px;
     
 }
 
@@ -14,57 +14,163 @@
     position:relative;
     top:10px;
     left:610px;
+    height:220px;
+    opacity:1;
 }
+
+.s1_2 {
+    position:relative;
+    top:-210px;
+    left:610px;
+    height:220px;
+    opacity:0;
+}
+
+.s1:hover{
+    opacity:0;
+}
+
+.s1_2:hover{
+    opacity:1;
+}
+
 
 .s2 {
     position:relative;
-    top:-53px;
+    top:-273px;
     left:147px;
+    opacity:1;
+}
+
+.s2_2 {
+    position:relative;
+    top:-550px;
+    left:147px;
+    opacity:0;
+}
+
+.s2:hover{
+    opacity:0;
+}
+
+.s2_2:hover{
+    opacity:1;
 }
 
 .s3 {
     position:relative;
-    top:-70px;
+    top:-565px;
     left:770px;
+    opacity:1;
+    height:150px;
+}
+
+.s3_2 {
+    position:relative;
+    top:-715px;
+    left:770px;
+    opacity:0;
+    height:150px;
+}
+
+.s3:hover{
+    opacity:0;
+}
+
+.s3_2:hover{
+    opacity:1;
 }
 
 .door1 {
     position:relative;
-    top:-220px;
+    top:-870px;
     left:1200px;
 }
 
 .s4 {
     position:relative;
-    top:-216px;
+    top:-870px;
     left:680px;
+    opacity:1;
+}
+
+.s4_2 {
+    position:relative;
+    top:-1290px;
+    left:680px;
+    opacity:0;
+}
+
+.s4:hover{
+    opacity:0;
+}
+
+.s4_2:hover{
+    opacity:1;
 }
 
 .s5 {
     position:relative;
-    top:-218px;
+    top:-1290px;
+    left:418px;
+    opacity:1;
+}
+
+.s5_2 {
+    position:relative;
+    top:-1513px;
     left:420px;
+    opacity:0;
+}
+
+.s5:hover{
+    opacity:0;
+}
+
+.s5_2:hover{
+    opacity:1;
 }
 
 .door2 {
     position:relative;
-    top:-450px;
+    top:-1735px;
     left:413px;
 }
 
 .s6 {
     position:relative;
-    top:-363px;
-    left:425px;
+    top:-1657px;
+    left:422px;
+    opacity:1;
 }
+
+.s6_2 {
+    position:relative;
+    top:-1931px;
+    left:422px;
+    opacity:0;
+}
+
+.s6:hover{
+    opacity:0;
+}
+
+.s6_2:hover{
+    opacity:1;
+}
+
 .door3 {
     position:relative;
-    top:-568px;
+    top:-2135px;
     left:1192px;
 }
 
 .s7 {
     position:relative;
-    top:-535px;
+    top:-2100px;
     left:187px;
+}
+
+.hidden {
+    display: none;
 }
