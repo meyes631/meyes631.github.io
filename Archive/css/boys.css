@@ -1,0 +1,15 @@
+body{
+    background-color:#aeaeae;
+    background-image: url(../images/bg_gutt.jpg);
+    background-size:cover
+}
+
+.wrapper{
+    /*background-color:#f00;*/
+    margin-left:510px;
+    margin-top:200px;
+}
+
+.simen{
+    transform:rotate(-8deg);
+}

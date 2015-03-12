@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(../images/bg.jpg);
+    /*background-size:cover;*/
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.jente1{
+    position:relative;
+    left:120px;
+    top:205;
+    opacity:1;
+    width:420px;
+}
+
+.jente1:hover{
+    opacity:0;
+}
+
+.jente2{
+    position:relative;
+    left:10px;
+    top:-150px;
+    opacity:0;
+    width:410px;
+    height:400px;
+}
+
+.jente2:hover{
+    opacity:1;
+}
+
+.gutt1{
+    position:relative;
+    opacity:1;
+    left:1065px;
+    top:-480px;
+    width:200px;
+    height:225px;
+}
+
+.gutt2{
+    position:relative;
+    opacity:0;
+    left:880px;
+    top:-870px;
+    width:450px;
+    height:350px;
+}
+
+.gutt1:hover{
+    opacity:0;
+}
+
+.gutt2:hover{
+    opacity:1;
+}

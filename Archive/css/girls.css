@@ -1,0 +1,76 @@
+body{
+    /*background-color:#aeaeae;*/
+    background-image: url(../images/bg_jenter.jpg);
+    background-size:1450px;
+}
+
+.wrapper{
+    /*background-color:#f00;*/
+    margin-left:150px;
+    margin-top:130px;
+}
+
+.conny{
+    transform:rotate(-3deg);
+}
+
+.eva{
+    transform:rotate(7deg);
+}
+
+.herin{
+    transform:rotate(2deg);
+}
+
+.jas{
+    transform:rotate(2deg);
+}
+
+.jaz{
+    transform:rotate(-8deg);
+}
+
+.kamila{
+    transform:rotate(-3deg);
+}
+
+.kyle{
+    transform:rotate(-10deg);
+}
+
+.lauren{
+    transform:rotate(2deg);
+}
+
+.lika{
+    transform:rotate(5deg);
+}
+
+.megan{
+    transform:rotate(5deg);
+}
+
+.sara{
+    transform:rotate(-4deg);
+}
+
+.theresa{
+    transform:rotate(-1deg);
+}
+
+.urvi{
+    transform:rotate(2deg);
+}
+
+.urvita{
+    transform:rotate(-3deg);
+}
+
+.vivian{
+    transform:rotate(3deg);
+}
+
+.zhiyan{
+    transform:rotate(6deg);
+    margin-left:380px;
+}
