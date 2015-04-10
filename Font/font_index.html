@@ -1,0 +1,593 @@
+<html>
+
+
+    <head>
+        
+        <link href="css/style.css" rel="stylesheet" type="text">
+        <link rel="icon" href="images/flick_fav.png" sizes="16x16 32x32" type="image/png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <title>Flickering Lights</title>
+        
+    </head>
+
+    <body>
+            
+            <div class="letter-wrapper"> <!-- A -->
+                <div data-keep="true" class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            
+            <div class="letter-wrapper"> <!-- B -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            
+            <div class="letter-wrapper"> <!-- C -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- D -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- E -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- F -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- G -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- H -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- I -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- J -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- K -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- L -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- M -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- N -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- O -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- P -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper-q"> <!-- Q -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- R -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- S -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- T -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- U -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- V -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- W -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- X -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- Y -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- Z -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- . -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper-com"> <!-- , -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- : -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper-semico"> <!-- ; -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- ! -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- ? -->
+                <div class="letter"> 
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel "></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- - -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+            <div class="letter-wrapper"> <!-- _ -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                </div>
+            </div>
+             <div class="letter-wrapper"> <!-- -- -->
+                <div class="letter"> 
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                    <div class="pixel off"></div>
+                </div>
+            </div>
+        
+        
+           <script src="..font_website/js/app.js"></script>   
+           
+    </body>   
+    
+
+</html>
