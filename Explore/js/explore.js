@@ -116,13 +116,16 @@ $('.wrapper').click(function() {
     
 
 function choose_background() {
+    var selectedimage = false;
     
   var random_num = Math.floor(Math.random() * backgrounds.length),
       background = backgrounds[random_num];
+      
+//   while (selectedbackground == nextbackground) {
+//     nextbackground = backgrounds[Math.floor(Math.random()*backgrounds.length)];
   
   $('body').addClass(background);
 }
-
 
 
     
@@ -144,7 +147,6 @@ var selectedimage = false;
   
 
 }
-
 
 
 
