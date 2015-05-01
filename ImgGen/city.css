@@ -1,0 +1,30 @@
+body{
+    background-color:#d22747;
+    margin: 0;
+    padding: 0;
+}
+
+.circle{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+}
+
+.h2{
+    position: absolute;
+    color:fff;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    height:50px;
+    width:50px;
+    /*margin-left:70px;*/
+}
+
+.image-holder img {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,104 @@
+
+/*body{*/
+/*    background-color:#d22747;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+.color1 {
+    background-color:#5a7ab4;
+}
+
+.color2 {
+    background-color:#795ab4;
+}
+
+.color3 {
+    background-color:#b459a8;
+}
+
+.color4 {
+    background-color:#c8566c;
+}
+
+.color5 {
+    background-color:#c85b57;
+}
+
+.color6 {
+    background-color:#e75237;
+}
+
+.color7 {
+    background-color:#e7373f;
+}
+
+.color8 {
+    background-color:#f7a427;
+}
+.color9 {
+    background-color:#d2274;
+}
+
+
+.wrapper{
+    width:310px;
+    height:400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.circle{
+    /*background-color:red;*/
+    width: 280px;
+    height: 278px;
+    border-radius: 100%;
+    margin-left: 15;
+    margin-right: auto;
+    margin-top:60;
+}
+
+.position{
+    position: absolute;
+    min-height: 10px;
+    max-width:290;
+    margin-top:140;
+}
+
+.action{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:280;
+}
+
+.dash{
+    position:absolute;
+    margin-top:115px;
+    margin-left:145px;
+}
+
+.location{
+    position:absolute;
+    width:290px;
+    margin-top:250px;
+    margin-left:15px;
+    text-align: right;
+}
+
+h1 {
+    color: #fff;
+    font-size:70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-size:35px;
+    font-family: 'Montserrat', sans-serif;
+}
