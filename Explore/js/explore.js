@@ -3,7 +3,7 @@ var actions = ['SELFIE WITH A STRANGER',
             	'SING OUT LOUD, WITH A BANANA',
             	'PLANT A FLOWER',
             	'BUY COFFE',
-            	'ASK A STRANGER TO DANCE WITH YOU',
+            	'ASK A STRANGER FOR A DANCE',
             	'GO FISHING',
             	'DRAW A DRAWING',
             	'BOW AND ARROW',
@@ -22,7 +22,7 @@ var actions = ['SELFIE WITH A STRANGER',
             	'STUMBLE AND FALL',
             	'CONVERSATION WITH YOUR SHOE',
             	'READ A BOOK UPSIDE DOWN',
-            	'DEPRIVE YOURSELF OF ALL DISTRACTIONS',
+            	'DEPRIVE YOURSELF OF DISTRACTIONS',
             	'HELP SOMEONE',
             	'ASK WHAT TIME IT IS',
             	'KEEP CALM',
@@ -67,7 +67,7 @@ var locations = ['BROOKLYN BRIDGE',
             	'MACY&rsquo;S',
             	'UN HQ',
             	'BAR',
-            	'RROCKEFELLER CENTER',
+            	'ROCKEFELLER CENTER',
             	'GRAND CENTRAL TERMINAL',
             	'THE METRO',
             	'WHEREVER',
@@ -85,13 +85,22 @@ var locations = ['BROOKLYN BRIDGE',
 var images =    ["images/ny1.png",
                  "images/ny2.png",
                  "images/ny3.png",
-                 "images/ny4.png",,
+                 "images/ny4.png",
                  "images/ny5.png",
                  "images/ny6.png",
                  "images/ny7.png",
-                 "images/ny8.png",
+                //  "images/ny8.png",
                  "images/ny9.png",
-                 "images/ny10.png"
+                 "images/ny10.png",
+                 "images/ny11.png",
+                 "images/ny12.png",
+                 "images/ny13.png",
+                 "images/ny14.png",
+                 "images/ny15.png",
+                 "images/ny16.png",
+                 "images/ny17.png",
+                 "images/ny18.png",
+                 "images/ny19.png"
                     ];
 
 
@@ -103,7 +112,8 @@ var backgrounds = ["color1",
                    "color6",
                    "color7",
                    "color8",
-                   "color9"
+                   "color9",
+                   "color10"
                    ];
 
 $('.wrapper').click(function() {
@@ -123,27 +133,32 @@ function choose_background() {
       
 //   while (selectedbackground == nextbackground) {
 //     nextbackground = backgrounds[Math.floor(Math.random()*backgrounds.length)];
-  
-  $('body').addClass(background);
+    
+  $('body').attr('class', '').addClass(background);
 }
 
 
     
 function choose_images() {
-var selectedimage = false;
+    var selectedimage = false;
 
+    var random_num = Math.floor(Math.random()*images.length);
   
-  var nextimage = images[Math.floor(Math.random()*images.length)];
+    var nextimage = images[random_num];
+    
+    console.log('random_num', random_num);
+    console.log('nextimage', nextimage);
+    console.log('=========');
   
-  while (selectedimage == nextimage) {
-    nextimage = images[Math.floor(Math.random()*images.length)];
-  }
+//   while (selectedimage == nextimage) {
+//     nextimage = images[Math.floor(Math.random()*images.length)];
+//   }
   
   selectedimage = nextimage;
   
-  $(".circle").html(nextimage);
+//   $(".circle").html(nextimage);
 
-  $(".circle").html('<img src="' + images[Math.floor(Math.random()*images.length)]+ '">');
+  $(".circle").html('<img src="' + nextimage + '">');
   
 
 }
