@@ -56,7 +56,7 @@ var locations = ['BROOKLYN BRIDGE',
             	'ROOSEVELT ISLAND',
             	'WALDORF ASTORIA',
             	'NEW YORK PUBLIC LIBRARY',
-            	'GOUND ZERO',
+            	'GROUND ZERO',
             	'THE HIGH LINE', 
             	'AMC CINEMA',
             	'BROADWAY',
@@ -113,7 +113,12 @@ var backgrounds = ["color1",
                    "color7",
                    "color8",
                    "color9",
-                   "color10"
+                   "color10",
+                   "color11",
+                   "color12",
+                   "color13",
+                   "color14",
+                   "color15"
                    ];
 
 $('.wrapper').click(function() {
